@@ -1,0 +1,103 @@
+2016/11/03 12:13:11 [notice] 2272#636: signal process started
+2016/11/03 12:13:11 [error] 2272#636: CreateFile() "D:\nginx-1.10.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/11/03 12:19:07 [notice] 4972#3728: signal process started
+2016/11/03 12:22:15 [notice] 2088#3336: signal process started
+2016/11/03 12:22:15 [error] 2088#3336: OpenEvent("Global\ngx_stop_1616") failed (2: The system cannot find the file specified)
+2016/11/03 12:33:59 [notice] 2124#2848: signal process started
+2016/11/03 13:29:11 [notice] 1892#3944: signal process started
+2016/11/03 14:30:37 [notice] 4700#4980: signal process started
+2016/11/03 14:32:26 [notice] 2872#4392: signal process started
+2016/11/03 14:34:40 [notice] 4400#4740: signal process started
+2016/11/03 14:37:17 [notice] 3176#1820: signal process started
+2016/11/03 14:49:28 [emerg] 3832#3108: FindFirstFile() "D:
+ginx-1.10.2/conf.d/*.conf" failed (123: The filename, directory name, or volume label syntax is incorrect) in D:\nginx-1.10.2/conf/nginx.conf:36
+2016/11/03 14:50:31 [emerg] 3356#2216: FindFirstFile() "D:
+ginx-1.10.2\conf.d/*.conf" failed (123: The filename, directory name, or volume label syntax is incorrect) in D:\nginx-1.10.2/conf/nginx.conf:36
+2016/11/03 14:50:50 [emerg] 3712#3240: FindFirstFile() "D:
+ginx-1.10.2\conf.d/*.conf" failed (123: The filename, directory name, or volume label syntax is incorrect) in D:\nginx-1.10.2/conf/nginx.conf:36
+2016/11/03 14:50:57 [emerg] 3316#1748: FindFirstFile() "D:
+ginx-1.10.2\conf.d/*.conf" failed (123: The filename, directory name, or volume label syntax is incorrect) in D:\nginx-1.10.2/conf/nginx.conf:36
+2016/11/03 14:51:45 [error] 2652#2972: *3 CreateFile() "D:\nginx-1.10.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.hello.dev", referrer: "http://www.hello.dev/"
+2016/11/03 14:53:08 [notice] 4436#4548: signal process started
+2016/11/03 14:54:35 [notice] 2996#4992: signal process started
+2016/11/03 14:54:56 [error] 1032#4700: *4 CreateFile() "D:\nginx-1.10.2/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "hello.dev", referrer: "http://hello.dev/"
+2016/11/03 14:56:04 [notice] 2504#4788: signal process started
+2016/11/03 14:59:08 [error] 2092#3104: *4 CreateFile() "D:/nginx-1.10.2/text/v2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /v2 HTTP/1.1", host: "www.hello.dev"
+2016/11/03 14:59:23 [error] 2092#3104: *4 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:09 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:10 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:18 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:23 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:53 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:54 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/vm" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /vm HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:01:58 [error] 2092#3104: *5 CreateFile() "D:/nginx-1.10.2/text/demo" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:02:08 [notice] 3760#4252: signal process started
+2016/11/03 15:02:20 [crit] 2716#2616: *1 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:02:24 [crit] 2716#2616: *2 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:02:25 [crit] 2716#2616: *3 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:02:26 [crit] 2716#2616: *4 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:01 [notice] 1604#4416: signal process started
+2016/11/03 15:03:07 [crit] 4988#4864: *1 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:09 [crit] 4988#4864: *2 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:12 [crit] 4988#4864: *3 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:21 [crit] 4988#4864: *4 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:47 [crit] 4988#4864: *5 CreateFile() "D:\HbuliderProject
+ginx/demo" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: hello.dev, request: "GET /demo HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:03:51 [notice] 896#3244: signal process started
+2016/11/03 15:11:18 [error] 2892#1760: *3 CreateFile() "D:/nginx-1.10.2/text/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: hello.dev, request: "GET /api HTTP/1.1", host: "www.hello.dev"
+2016/11/03 15:12:52 [emerg] 4060#2524: invalid URL prefix in D:/nginx-1.10.2/conf.d/hello.conf:19
+2016/11/03 15:13:16 [notice] 4732#3728: signal process started
+2016/11/03 15:32:21 [notice] 3056#636: signal process started
+2016/11/03 15:32:37 [crit] 4308#476: *3 CreateFile() "D:/D:/HbuliderProject/nginx/api" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:32:53 [notice] 4504#1760: signal process started
+2016/11/03 15:32:59 [error] 4908#2132: *3 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:33:00 [error] 4908#2132: *5 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:33:01 [error] 4908#2132: *7 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:33:18 [error] 4908#2132: *8 CreateFile() "D:/HbuliderProject/nginx/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "api.hello.dev", referrer: "http://api.hello.dev/"
+2016/11/03 15:34:57 [error] 4908#2132: *13 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:35:50 [error] 4908#2132: *22 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:37:11 [warn] 2256#4912: server name "http://api.hello.dev" has suspicious symbols in D:/nginx-1.10.2/conf.d/api.conf:3
+2016/11/03 15:37:11 [notice] 2256#4912: signal process started
+2016/11/03 15:38:00 [warn] 2092#1796: server name "http://api.hello.dev" has suspicious symbols in D:/nginx-1.10.2/conf.d/api.conf:3
+2016/11/03 15:38:00 [notice] 2092#1796: signal process started
+2016/11/03 15:38:00 [error] 2092#1796: CreateFile() "D:\nginx-1.10.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/11/03 15:39:02 [notice] 3172#4980: signal process started
+2016/11/03 15:39:02 [error] 3172#4980: CreateFile() "D:\nginx-1.10.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/11/03 15:40:33 [notice] 3308#1032: signal process started
+2016/11/03 15:40:33 [error] 3308#1032: CreateFile() "D:\nginx-1.10.2/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2016/11/03 15:41:45 [error] 4952#3300: *3 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:41:45 [error] 4952#3300: *5 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:46:11 [emerg] 4596#5072: unknown directive "list" in D:/nginx-1.10.2/conf.d/api.conf:9
+2016/11/03 15:46:22 [notice] 2144#4788: signal process started
+2016/11/03 15:47:55 [notice] 3768#3916: signal process started
+2016/11/03 15:48:24 [error] 1308#1520: *4 CreateFile() "D:\nginx-1.10.2/html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:48:24 [error] 1308#1520: *6 CreateFile() "D:\nginx-1.10.2/html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:49:56 [notice] 3640#1820: signal process started
+2016/11/03 15:50:02 [error] 2024#2352: *3 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:50:03 [error] 2024#2352: *5 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:50:04 [error] 2024#2352: *7 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:50:10 [error] 2024#2352: *9 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:50:11 [error] 2024#2352: *11 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:51:07 [notice] 4676#3864: signal process started
+2016/11/03 15:51:29 [error] 5020#3152: *4 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:51:29 [error] 5020#3152: *6 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 15:52:14 [notice] 4660#4752: signal process started
+2016/11/03 15:52:23 [error] 4012#1700: *3 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:01:50 [error] 4012#1700: *6 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:02:23 [error] 4012#1700: *8 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:02:24 [error] 4012#1700: *10 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:04:51 [notice] 3356#3924: signal process started
+2016/11/03 16:04:58 [error] 4756#3056: *3 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:04:59 [error] 4756#3056: *5 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:05:01 [error] 4756#3056: *8 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:05:08 [error] 4756#3056: *10 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:05:08 [error] 4756#3056: *12 CreateFile() "D:/HbuliderProject/nginx/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: api.hello.dev, request: "GET /api HTTP/1.0", host: "api.hello.dev"
+2016/11/03 16:08:18 [notice] 476#1404: signal process started
