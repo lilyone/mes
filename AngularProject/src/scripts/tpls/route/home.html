@@ -1,0 +1,36 @@
+<div class="home_container" ng-controller="danziController">
+	<section class="search_title">
+		近期保单
+	</section>
+	<p>
+	    搜索: <input class="form-control" ng-model="search">
+	</p>
+	<div class="pai">
+		<a href="javascript:void(0)" ng-click="lily = '0'">默认排序</a>
+		<a href="javascript:void(0)" ng-click="lily = 'date';reverse=!reverse">日期排序</a>
+		<a href="javascript:void(0)" ng-click="lily = 'fei';reverse=!reverse">保费排序</a>
+		<a href="javascript:void(0)" ng-click="lily = 'pMark';reverse=!reverse">积分排序</a>
+	</div>
+	
+		<ul>
+			<li class="person">投保人</li>
+			<li class="pro">产品</li>
+			<li class="money">保费</li>
+			<li class="limark">基础积分</li>
+		</ul>
+		<table border="1" ng-repeat = "list in baodans | filter:search |orderBy:lily:reverse" >
+			<tr class="tit">
+				<td colspan = "4" class="shortline">
+					投保单号：{{list.pNumer}}
+					回执日期：{{list.date}}
+					保费：{{list.fei}}
+				</td>
+			</tr>
+			<tr>
+				<td class="person">{{list.uNAme}}</td>
+				<td class="pro">{{list.pName}}</td>
+				<td class="money">{{list.fei}}</td>
+				<td class="limark">{{list.pMark}}</td>
+			</tr>
+		</table>
+</div>

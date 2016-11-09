@@ -1,0 +1,62 @@
+<div class="pro-container" ng-controller = "proContainer">
+	<h1>自定义service</h1>
+	<div class="row headList">
+		<div class="col-sm-4">
+			产品
+		</div>
+		<div class="col-sm-2">
+			保险公司
+		</div>
+		<div class="col-sm-2">
+			大类
+		</div>
+		<div class="col-sm-2">
+			小类
+		</div>
+		<div class="col-sm-2">
+			操作
+		</div>
+	</div>
+	<!--<div class="row proList">
+		<div class="col-sm-4">
+			<p>平安家居综合保障计划(白金计划)</p>
+		</div>
+		<div class="col-sm-2">
+			<p>平安财产保险</p>
+		</div>
+		<div class="col-sm-2">
+			<p>财产保险</p>
+		</div>
+		<div class="col-sm-2">
+			<p>综合意外@交通意外</p>
+		</div>
+		<div class="col-sm-2">
+			<a href="#" class="top">邀请客户购买</a>
+			<a href="#">产品详情</a>
+			<a href="#">积分规则</a>
+			<a href="#">我要购买</a>
+		</div>
+	</div>-->
+
+	<div class="row proList" ng-repeat = "pro in products">
+		<div class="col-sm-4">
+			<p>{{pro.name}}</p>
+		</div>
+		<div class="col-sm-2">
+			<p>{{pro.company}}</p>
+		</div>
+		<div class="col-sm-2">
+			<p>{{pro.big}}</p>
+		</div>
+		<div class="col-sm-2">
+			<p>综合意外@交通意外</p>
+		</div>
+		<div class="col-sm-2">
+			<a href="#" class="top">邀请客户购买</a>
+			<a href="#">产品详情</a>
+			<a href="#">积分规则</a>
+			<a href="#">我要购买</a>
+		</div>
+	</div>
+</div>
+

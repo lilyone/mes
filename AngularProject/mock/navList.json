@@ -1,0 +1,19 @@
+[
+		{"name":"首页","url":"#/home"},
+		{"name":"自定义指令","url":"#/income"},
+		{"name":"保险产品","url":"#/pro"},
+		{"name":"车险","url":"#/car"},
+		{"name":"团意险","url":"#/group"},
+		{"name":"救援服务卡","url":"#/helpCard"},
+		{"name":"邀请客户投保","url":"#/invite"},
+		{"name":"推广积分查询","url":"#/extend"},
+		{"name":"我的订单","url":"#/mylist"},
+		{"name":"团队订单","url":"#/groupList"},
+		{"name":"网站活动","url":"#/website"},
+		{"name":"个人网站","url":"#/person"},
+		{"name":"我的团队","url":"#/myGroup"},
+		{"name":"个人中心","url":"#/my"},
+		{"name":"服务管理","url":"#/serve"},
+		{"name":"帮助中心","url":"#/help"}
+		
+	]

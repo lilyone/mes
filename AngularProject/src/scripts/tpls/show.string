@@ -1,0 +1,46 @@
+		<div class="main-page">
+			<header>
+				<section class="container">
+					<p class="mes_left">您好<span>刘晨</span>，欢迎进入700度商务会员平台</p>
+					<div class="line"></div>
+					<div class="icon_xin">
+						<img src="img/xin.png"/>
+					</div>
+					<a class="mes_xin" href="#">站内信<span>（71）</span></a>
+					<a href="#" class="out">安全退出</a>
+				</section>
+			</header>
+			<div class="logoLine">
+				<section class="container">
+					<div class="logo">
+						<img src="img/logo.png"/>
+					</div>
+					<div class="search">
+						<input type="text" id=""placeholder="请输入产品名称" />
+					</div>
+					<div class="submitButton">
+						<input type="button" id="" value="搜 索" />
+					</div>
+				</section>
+			</div>
+			<section class="chuan">
+				<div class="container">
+					<span><img src="img/laba.png"/></span><p class="p_title">会员平台公告 : </p>
+					<p href="#" class="p_mes">暂定于周二晚更新，同方全球新产品上心，佣金行业最高，免体检自动续保</a>
+				</div>	
+			</section>
+			<section class="mainBody container">
+				<div class="left">
+					<div class="left_bar" ng-controller="listController">					
+						<div class="navbar-list" ng-repeat="list in lists">
+							<a ng-href="{{list.url}}">{{list.name}}</a>
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="right_bar">
+					<ng-view></ng-view>
+				</div>
+			</section>
+		</div>
